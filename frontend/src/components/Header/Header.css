@@ -1,0 +1,34 @@
+.mainheader{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    font-weight: bold;
+    font-size:x-large;
+    height:3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+    z-index: 1;
+    width: 100%;
+}
+
+.header-logo {
+    height: 3rem; /* Set the height to match your header's height */
+    margin-right: 1rem; /* Add some space between the logo and the nav links */
+  }
+
+.mainnav a{
+    margin: 1em;
+    color: rgb(65, 55, 55);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.mainnav a:hover{
+    font-style: oblique;
+}

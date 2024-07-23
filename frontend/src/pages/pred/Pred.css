@@ -1,0 +1,65 @@
+.pred-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.dropdown-container {
+  margin-bottom: 1rem;
+}
+
+.period-dropdown {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.graph-container {
+  margin-bottom: 1rem;
+}
+
+.graph-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.predictions-table {
+  margin-top: 1rem;
+}
+
+.predictions-table table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.predictions-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Additional styles for the predictions table */
+.predictions-table-container {
+  margin-top: 1rem;
+  overflow-x: auto; /* Allows table to scroll on small screens */
+}
+
+.predictions-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse;
+}
+
+.predictions-table thead {
+  background-color: #f2f2f2;
+}
+
+.predictions-table thead th {
+  padding: 0.5rem 1rem;
+}
+
+.predictions-table tbody td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.predictions-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Zebra-striping for rows */
+}

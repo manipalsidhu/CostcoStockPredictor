@@ -1,0 +1,43 @@
+.home-content {
+  position: absolute;
+
+  text-align: center;
+  width: 700px;
+
+  top:40%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+}
+
+.home-button {
+  background-color: rgb(48, 45, 45);
+  color: white;
+  margin: 2em;
+  border-radius: 12px;
+  padding: 2%;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid red;
+}
+
+.center-image {
+  max-width: 100%; /* Ensures the image is responsive and fits within its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  margin-top: 2rem; /* Spacing above the image */
+}
+
+.image-source {
+  margin-top: 1rem; /* Spacing above the source link */
+  font-size: 0.8rem; /* Smaller font size for the source text */
+}
